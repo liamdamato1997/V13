@@ -9,6 +9,6 @@ $scanId = 1c55cc29-c1f8-4425-9c3d-713915756428;
 try {
     $api_instance->triggerScan($scanId);
 } catch (Exception $e) {
-    echo 'Exception when calling ScansApi->triggerScan: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ScansApi->triggerScan: ';
 }
 ?>
