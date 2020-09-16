@@ -11,7 +11,7 @@ swagger_client.configuration.api_key['X-Auth'] = '126bc6269b17d4ac9883edc51917e7
 
 # create an instance of the API class
 api_instance = swagger_client.ScansApi()
-scanId = 1c55cc29-c1f8-4425-9c3d-713915756428
+scanId = 'bf34b5b6-3470-4025-83ce-dfcf89a13b37'
 
 try: 
     # Trigger Scan a new scan session
