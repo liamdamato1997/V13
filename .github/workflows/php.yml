@@ -1,10 +1,7 @@
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-// Configure API key authorization: scanner_authorization
 Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('X-Auth', '126bc6269b17d4ac9883edc51917e72c3bc8e294311c9a61a15f343f263847716');
-// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('X-Auth', 'Bearer');
 
 $api_instance = new Swagger\Client\Api\ScansApi();
 $scanId = 1c55cc29-c1f8-4425-9c3d-713915756428;
