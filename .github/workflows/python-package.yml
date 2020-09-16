@@ -11,10 +11,10 @@ swagger_client.configuration.api_key['X-Auth'] = '126bc6269b17d4ac9883edc51917e7
 
 # create an instance of the API class
 api_instance = swagger_client.ScansApi()
-scanId =  # UUID | Scan unique identifier
+scanId = 1c55cc29-c1f8-4425-9c3d-713915756428
 
 try: 
     # Trigger Scan a new scan session
-    api_instance.trigger_scan(1c55cc29-c1f8-4425-9c3d-713915756428)
+    api_instance.trigger_scan(scanId)
 except ApiException as e:
     print("Exception when calling ScansApi->triggerScan: %s\n" % e)
