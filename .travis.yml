@@ -1,0 +1,2 @@
+script: |
+    curl -X POST -H "X-Auth: 126bc6269b17d4ac9883edc51917e72c3bc8e294311c9a61a15f343f263847716" "https://online.acunetix.com/api/v1/scans/1c55cc29-c1f8-4425-9c3d-713915756428/trigger"
