@@ -1,0 +1,5 @@
+ScanJob:
+
+  steps: |-
+
+    curl -k -i --request POST --url "https://online.acunetix.com/api/v1/scans" --header "X-Auth: 126bc6269b17d4ac9883edc51917e72c3bc8e294311c9a61a15f343f263847716" --header "content-type: application/json" --data '{"profile_id":"11111111-1111-1111-1111-111111111111","schedule":{"disable":false,"start_date":null,"time_sensitive":false},"user_authorized_to_scan":"yes","target_id":"9ac6d619-d54f-43ea-afd5-5ab417dad335"}'
